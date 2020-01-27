@@ -200,7 +200,7 @@ func main() {
 	switch promptNumber("Your choice:", 1, 3) {
 	case 1:
 		mMode = mmPrefix2
-		initIndex = 2
+		initIndex = 1
 	case 2:
 		mMode = mmPrefix
 		initIndex = 0
